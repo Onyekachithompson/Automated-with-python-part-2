@@ -225,10 +225,10 @@ import random, sys, os, math58 Chapter 2
 Now we can use any of the functions in these four modules. We’ll learn 
 more about them later in the book.
 from import Statements
-An alternative form of the import statement is composed of the from keyword, followed by the module name, the import keyword, and a star; for 
+An alternative form of the import statement is composed of the from keyword, followed by the module name, the import keyword, and a star; for 
 example, from random import *.
 With this form of import statement, calls to functions in random will not 
-need the random. prefix. However, using the full name makes for more readable code, so it is better to use the normal form of the import statement.
+need the random. prefix. However, using the full name makes for more readable code, so it is better to use the normal form of the import statement.
 Ending a Program Early with sys.exit()
 The last flow control concept to cover is how to terminate the program. 
 This always happens if the program execution reaches the bottom of the 
@@ -246,7 +246,7 @@ while True:
  print('You typed ' + response + '.')
 Run this program in IDLE. This program has an infinite loop with no 
 break statement inside. The only way this program will end is if the user enters 
-exit, causing sys.exit() to be called. When response is equal to exit, the program ends. Since the response variable is set by the input() function, the user 
+exit, causing sys.exit() to be called. When response is equal to exit, the program ends. Since the response variable is set by the input() function, the user 
 must enter exit in order to stop the program.
 
 Summary
